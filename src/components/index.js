@@ -1,3 +1,3 @@
-import Pokeball_Switch from "./Pokeball_Switch";
+import PokeballToggle from "./PokeballSwitch";
 
-export { Pokeball_Switch };
+export { PokeballToggle };

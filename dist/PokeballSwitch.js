@@ -5,7 +5,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = Button;
+exports.default = PokeballToggle;
 
 var _react = _interopRequireWildcard(require("react"));
 
@@ -31,7 +31,7 @@ function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Sy
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-function Button(props) {
+function PokeballToggle(props) {
   var _useState = (0, _react.useState)(false),
       _useState2 = _slicedToArray(_useState, 2),
       toggled = _useState2[0],
@@ -70,6 +70,6 @@ function Button(props) {
   }))));
 }
 
-Button.propTypes = {
+PokeballToggle.propTypes = {
   onClick: _propTypes.default.func
 };

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import "./Pokeball.css";
-export default function Button(props) {
+export default function PokeballToggle(props) {
   const [toggled, setToggled] = useState(false);
   return (
     <>
@@ -41,6 +41,6 @@ export default function Button(props) {
   );
 }
 
-Button.propTypes = {
+PokeballToggle.propTypes = {
   onClick: PropTypes.func,
 };

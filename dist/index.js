@@ -3,13 +3,13 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "Pokeball_Switch", {
+Object.defineProperty(exports, "PokeballToggle", {
   enumerable: true,
   get: function get() {
-    return _Pokeball_Switch.default;
+    return _PokeballSwitch.default;
   }
 });
 
-var _Pokeball_Switch = _interopRequireDefault(require("./Pokeball_Switch"));
+var _PokeballSwitch = _interopRequireDefault(require("./PokeballSwitch"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

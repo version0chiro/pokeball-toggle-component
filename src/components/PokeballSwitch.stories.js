@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Button from './Pokeball_Switch';
+import Button from './PokeballSwitch';
 
 export default {
   title: 'Example/Button',
