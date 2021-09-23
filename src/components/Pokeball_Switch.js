@@ -11,7 +11,9 @@ export default function Button(props) {
             className="switch"
             onClick={() => {
               setToggled(!toggled);
-              props.onClick();
+              if (props.onClick) {
+                props.onClick();
+              }
             }}
           >
             <div className="switch-front"></div>
@@ -24,7 +26,9 @@ export default function Button(props) {
             className="switch2"
             onClick={() => {
               setToggled(!toggled);
-              props.onClick();
+              if (props.onClick) {
+                props.onClick();
+              }
             }}
           >
             <div className="switch-front"></div>

@@ -43,7 +43,10 @@ function Button(props) {
     className: "switch",
     onClick: function onClick() {
       setToggled(!toggled);
-      props.onClick();
+
+      if (props.onClick) {
+        props.onClick();
+      }
     }
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "switch-front"
@@ -55,7 +58,10 @@ function Button(props) {
     className: "switch2",
     onClick: function onClick() {
       setToggled(!toggled);
-      props.onClick();
+
+      if (props.onClick) {
+        props.onClick();
+      }
     }
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "switch-front"
