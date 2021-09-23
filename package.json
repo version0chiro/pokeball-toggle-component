@@ -1,23 +1,22 @@
 {
   "name": "pokeball-toggle",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": false,
   "main": "dist/index.js",
-  "files":["dist","README.md"],
-  "repository": {"type":"git","url":"https://github.com/version0chiro/pokeball-toggle-component"},
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/version0chiro/pokeball-toggle-component"
+  },
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3"
   },
-  "dependencies": {
-    "@storybook/addon-storyshots": "^6.3.8",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react-test-renderer": "^17.0.2",
-    "web-vitals": "^1.0.1"
-  },
+  "dependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -25,8 +24,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "clean":"rimraf dist",
-    "compile":"npm run clean && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,stories.js,__snapshots__"
+    "clean": "rimraf dist",
+    "compile": "npm run clean && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,stories.js,__snapshots__"
   },
   "eslintConfig": {
     "extends": [
@@ -57,6 +56,7 @@
     ]
   },
   "devDependencies": {
+   
     "@babel/cli": "^7.15.7",
     "@babel/preset-env": "^7.15.6",
     "@babel/preset-react": "^7.14.5",
