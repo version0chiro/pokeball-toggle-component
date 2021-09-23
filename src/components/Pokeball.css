@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #316b83;
+  transition: 0.3s;
+}
+
+.toggle {
+  position: relative;
+  width: 30vmin;
+  height: 15vmin;
+  background: #1e3163;
+  border-radius: 50vmin;
+  cursor: pointer;
+}
+
+.toggle .switch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15vmin;
+  height: 15vmin;
+  background: #ff0000;
+  border: 0.5vmin solid #000;
+  border-radius: 50%;
+  transform: scale(0.9);
+  transition: 0.8s;
+}
+
+.toggle2 {
+  position: relative;
+  width: 30vmin;
+  height: 15vmin;
+  background: #fd6f96;
+  border-radius: 50vmin;
+  cursor: pointer;
+}
+
+.toggle2 .switch2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15vmin;
+  height: 15vmin;
+  background: #ff0000;
+  border: 0.5vmin solid #000;
+  border-radius: 50%;
+  transform: scale(0.9);
+  transition: 0.8s;
+}
+.switch-front {
+  content: "";
+  position: absolute;
+  bottom: -0.3vmin;
+  left: -0.3vmin;
+  background: #fff;
+  width: 14.6vmin;
+  height: 7.5vmin;
+  border: 0.5vmin solid #000;
+  border-bottom-left-radius: 30vmin;
+  border-bottom-right-radius: 30vmin;
+  box-shadow: inset 1vmin -1vmin 1vmin #7f7c82;
+}
+.switch2-front {
+  content: "";
+  position: absolute;
+  top: 4.6vmin;
+  left: 4.6vmin;
+  width: 5vmin;
+  height: 5vmin;
+  background: #fff;
+  border: 0.5vmin solid #000;
+  border-radius: 50%;
+  box-shadow: -4vmin -4vmin 0 -1vmin #fff;
+}
+
+.toggle2 .switch2 {
+  left: 15vmin;
+  background: #ff0000;
+  transform: scale(0.9) rotate(180deg);
+  transition: 0.8s;
+}

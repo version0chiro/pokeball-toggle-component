@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Example/Button Default 1`] = `
+<div
+  className="toggle"
+>
+  <div
+    className="switch"
+    onClick={[Function]}
+  >
+    <div
+      className="switch-front"
+    />
+    <div
+      className="switch2-front"
+    />
+  </div>
+</div>
+`;
